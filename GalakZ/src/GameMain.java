@@ -14,7 +14,7 @@ import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 /*
- * AUTHOR: Aaron Creor
+ * AUTHOR: Aaron
  * 
  * CONTACT INFORMATION: aaronmacleod123@gmail.com
  *
