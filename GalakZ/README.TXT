@@ -1,5 +1,4 @@
 PROJECT TITLE: GalakZ
-PURPOSE OF PROJECT:COMP155 Final Project
 VERSION or DATE:March 4th 2018
 HOW TO START THIS PROJECT:Run the GameMain function, or use the included .jar file
 AUTHORS:Aaron
