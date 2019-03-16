@@ -1,18 +1,8 @@
 import java.awt.Color;
-import java.awt.Frame;
 import java.awt.Graphics;
-import java.io.PrintStream;
-import java.util.Scanner;
 import java.awt.*;
-import java.awt.geom.*;
-import java.awt.event.*;
-import java.util.ArrayList;
-import java.awt.Container;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
-import javax.swing.JApplet;
 public class Menu{
     boolean isRun = false;
     String title;
@@ -21,7 +11,7 @@ public class Menu{
     int age = 0;//age of object
     public Menu(){   
         title = "GALAK";
-        Z = "Z";
+        Z = "ZED";
         start = "Press (Space) to begin!";
     }
     public void draw(Graphics g){ 
@@ -32,9 +22,9 @@ public class Menu{
             RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
             g2d.setFont(font);
             g.setColor(Color.YELLOW);
-            g.drawString(title, 215, 200);
+            g.drawString(title, 205, 200);
             g.setColor(Color.RED);
-            g.drawString(Z, 295, 200);
+            g.drawString(Z, 285, 200);
             g.setColor(Color.YELLOW);
             g.drawString(start, 150, 400);
         }

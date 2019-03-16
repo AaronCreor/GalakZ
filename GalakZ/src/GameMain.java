@@ -1,18 +1,8 @@
 import java.awt.Color;
 import java.awt.Frame;
 import java.awt.Graphics;
-import java.io.PrintStream;
-import java.util.Scanner;
 import java.awt.*;
-import java.awt.geom.*;
 import java.awt.event.*;
-import java.util.ArrayList;
-import java.awt.Container;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 /*
  * AUTHOR: Aaron
  * 
@@ -56,7 +46,10 @@ implements KeyListener{
         menu = new Menu();
         instance = new LoadGame();
         addKeyListener(this);
-        setBackground(Color.BLACK);//sets backround colour
+        setBackground(Color.BLACK);//sets background colour
+        setResizable(false);//Makes game not resizable
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();//Gets the users screen size
+        this.setLocation(dim.width/2-this.getSize().width/2, dim.height/2-this.getSize().height/2);
     }
     public void paint(Graphics g) {
         if(bufferWidth!=getSize().width ||
