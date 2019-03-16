@@ -1,17 +1,6 @@
 import java.awt.Color;
-import java.awt.Frame;
 import java.awt.Graphics;
-import java.io.PrintStream;
-import java.util.Scanner;
-import java.awt.*;
-import java.awt.geom.*;
-import java.awt.event.*;
-import java.util.ArrayList;
-import java.awt.Container;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
+import java.util.Random;
 public class UserInterface{
     int Health;//Players current displayed health
     int age;//age of instance
@@ -29,7 +18,15 @@ public class UserInterface{
         g.drawString("Space = Shoot", 300, 625);
         g.drawString("Arrow Keys = Move", 300, 650);
         g.setColor(Color.RED);
-        g.drawString("Z", 290, 75); 
+        g.drawString("Z", 290, 75);
+        g.setColor(Color.YELLOW);
+        for(int counter = 0; counter < 5; counter++) {
+            Random rand = new Random();
+            int randomcount = rand.nextInt(500);
+            Random rand2 = new Random();
+            int randomcount2 = rand2.nextInt(475);
+            g.fillRect(1+randomcount, 125+randomcount2, 2, 2);
+        }
     }
     public void draw(Graphics g, int points){
         drawText(g);

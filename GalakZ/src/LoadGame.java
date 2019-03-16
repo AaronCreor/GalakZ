@@ -1,17 +1,5 @@
-import java.awt.Color;
-import java.awt.Frame;
 import java.awt.Graphics;
-import java.io.PrintStream;
-import java.util.Scanner;
-import java.awt.*;
-import java.awt.geom.*;
-import java.awt.event.*;
 import java.util.ArrayList;
-import java.awt.Container;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
 public class LoadGame{
     boolean CanRun;//So instance only runs once menu is closed
     UserInterface ui;
