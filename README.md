@@ -86,8 +86,8 @@ java -cp out game.Main
 
 (Adjust to match your actual bindings)
 
--   **Arrow Keys / WASD** --- Move / rotate ship\
--   **Space** --- Fire\
+-   **Arrow Keys / WASD** --- Move / rotate ship
+-   **Space** --- Fire
 -   **Esc** --- Exit
 
 ------------------------------------------------------------------------
