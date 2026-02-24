@@ -42,12 +42,12 @@ game.
 
 ## Tech Stack
 
--   **Language:** Java\
--   **Rendering:** Java2D / AWT / Swing\
+-   **Language:** Java
+-   **Rendering:** Java2D / AWT / Swing
 -   **Architecture:**
-    -   Custom game loop\
-    -   Entity-based design\
-    -   Separation of update and render steps\
+    -   Custom game loop
+    -   Entity-based design
+    -   Separation of update and render steps
 -   **Assets:** Loaded via standard Java image utilities
 
 ------------------------------------------------------------------------
