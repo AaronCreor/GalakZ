@@ -13,7 +13,7 @@ handling, and a custom game loop.
 ## Overview
 
 **GalakZ** is a small game engine + game implementation written in
-Java.\
+Java.
 It demonstrates:
 
 -   A real-time update/render loop
@@ -22,9 +22,6 @@ It demonstrates:
 -   Projectile and collision handling
 -   Input-driven movement and combat
 -   Simple game state management
-
-This is a technical / learning-focused project rather than a production
-game.
 
 ------------------------------------------------------------------------
 
@@ -77,8 +74,6 @@ javac -d out $(find src -name "*.java")
 ``` bash
 java -cp out game.Main
 ```
-
-> Update the main class path if your package name differs.
 
 ------------------------------------------------------------------------
 
