@@ -79,9 +79,7 @@ java -cp out game.Main
 
 ## Controls
 
-(Adjust to match your actual bindings)
-
--   **Arrow Keys / WASD** --- Move / rotate ship
+-   **Arrow Keys** --- Move / rotate ship
 -   **Space** --- Fire
 -   **Esc** --- Exit
 
@@ -108,6 +106,3 @@ This project is intended as a technical demonstration of:
 -   2D rendering in Java
 -   Entity-based game architecture
 -   Basic game engine structure
-
-It's a solid base for experimenting with engine features, performance
-improvements, or migrating to a more advanced framework later.
